@@ -21,3 +21,19 @@ $ conda create -n Rag-App python =3.8
 ```bash
 $ conda activate Rag-App
 ```
+
+## Installation
+
+### Install the required packahes
+
+```bash
+$ pip install -r requirements.txt
+```
+
+### Setup the environment variables
+
+```bash
+$ cp .env.example .env
+```
+
+Set your environment variables in the `.env` file.
